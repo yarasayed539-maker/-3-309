@@ -310,3 +310,17 @@ tbody tr:hover { background: rgba(37, 99, 235, 0.1); }
     color: #f87171;
   }
 }
+/* Inline Error Messages Styling */
+.error-msg {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  min-height: 1.2em;
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .error-msg {
+    color: #ff6b6b;
+  }
+}
